@@ -39,13 +39,7 @@
       "headers":{"Content-Type" : "application/json"
       }
     },
-    {
-      "method":"POST",
-      "url": "http://vstg-gateway-prod-1532961163.ap-south-1.elb.amazonaws.com/notification/api\/v1/send/otp/v3",
-      "headers":{"Content-Type" : "application/json",
-      "data":"{"mobileNumber":"88*****","countryId":22}"
-      }
-    },
+
     {
       "method":"POST",
       "url":"https://ss.binge.buzz/otp/send/login",
